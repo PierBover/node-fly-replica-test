@@ -1,0 +1,8 @@
+{
+	"verbose": false,
+	"watch": ["."],
+	"ext": "js",
+	"exec": "node -r dotenv/config ./index.js",
+	"legacyWatch": false,
+	"delay": 250
+}
