@@ -3,9 +3,10 @@ import {getProducts} from "./db/index.js";
 
 const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || 3000;
+const DEV = process.env.NODE_ENV !== 'production';
 
 const fastify = Fastify({
-	logger: false
+	logger: DEV
 });
 
 fastify.get('/', async function (request, reply) {

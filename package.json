@@ -20,9 +20,8 @@
   },
   "homepage": "https://github.com/PierBover/node-fly-replica-test#readme",
   "dependencies": {
-    "@databases/pg": "^5.4.1",
-    "@databases/pg-cluster": "^1.0.1",
-    "fastify": "^4.15.0"
+    "fastify": "^4.15.0",
+    "postgres": "^3.3.4"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
